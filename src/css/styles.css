@@ -1,0 +1,51 @@
+:root {
+    --fuenteSora: 'Lora';
+    --fuenteCrimson: 'Crimson Pro', serif;;
+
+    --colorFondo: #181719;
+    --colorBlanco: #fff;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    background-color: var(--colorFondo);
+    color: var(--colorBlanco);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    margin: 1.9rem 1.275rem auto 1.2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__menu {
+    width: 3rem;
+    height: 2rem;
+}
+
+.header__title {
+    font-family: var(--fuenteCrimson);
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    padding: .9rem;
+    border: 1px solid white;
+    text-transform: uppercase;
+}
